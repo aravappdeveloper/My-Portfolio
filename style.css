@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    background-color: yellow;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'East Sea Dokdo', cursive;
+    font-weight: 300;
+}
+
+#apps {
+    width: 90%;
+    height: 800px;
+    background-color: crimson;
+}
+
+#games {
+    width: 90%;
+    height: 800px;
+    background-color: dodgerblue;
+}
+
+#chatbot {
+    width: 90%;
+    height: 800px;
+    background-color: coral;
+}
+
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}

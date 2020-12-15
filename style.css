@@ -1,43 +1,45 @@
+#app {
+    width: 100%;
+    height: 800px;
+    background-color: #FFD6A5;
+}
+
+.container {
+    text-align: center;
+}
+
 body {
     text-align: center;
-    background-color: yellow;
+    background-color: aquamarine;
 }
 
-h1 {
-    font-size: 40px;
-    font-family: 'East Sea Dokdo', cursive;
-    font-weight: 300;
+#myCarousel {
+    background-color: #FFD6A5;
 }
 
-#apps {
-    width: 90%;
-    height: 800px;
-    background-color: crimson;
+#myCarousel img {
+    height: 300px;
+    margin-top: 35px
 }
 
-#games {
-    width: 90%;
-    height: 800px;
-    background-color: dodgerblue;
+.carousel-inner p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: darkblue;
+}
+
+#myCarousel2 {
+    background-color: #FFD6A5;
+}
+
+#myCarousel2 img {
+    height: 300px;
+    margin-top: 35px
 }
 
 #chatbot {
-    width: 90%;
+    width: 100%;
     height: 800px;
-    background-color: coral;
-}
-
-img {
-    transition: transform .2s;
-}
-
-img:hover {
-    transform: scale(0.9);
-}
-
-.line {
-    height: 6px;
-    background-color: black;
-    width: 70px;
-    margin: 8px auto;
+    background-color: #FFD6A5;
 }

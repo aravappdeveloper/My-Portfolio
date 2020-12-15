@@ -2,33 +2,95 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <section id="apps">
-        <h1>Apps</h1>
-        <div class="line"></div>
-        <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/6OhVWH2PNMGTk3fDrXZv42WPZ1caw42x3_aFSvpq0Bs/embed?nosource"></iframe>
-        <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/aKawsH46qqj9sli3chrYPEa8vq8LzIfnROPxYpU7VNH/embed?nosource"></iframe>
-    </section>
 
-    <section id="games">
-        <h1>Games</h1>
-        <div class="line"></div>
-        <a href="https://studio.code.org/projects/spritelab/BdtKGTxWSu2SLQ1o4mdreXGdY3SaXZ18oFX0cdSnvZU" target="_blank">
-            <img src="Balloon%20Popper.png" width="300" height="300">
-        </a>
-        <a href="https://studio.code.org/projects/playlab/fSDCs4519u5ZKEpkLl-Ly05DEGhxpGinTtOIBOwW090" target="_blank">
-            <img src="Multiplication%20Tables.png" width="300" height="300">
-        </a>
-    </section>
+    <div class="container">
 
+        <section id="app">
+            <h1>Apps</h1>
+            <div class="line"></div>
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/6OhVWH2PNMGTk3fDrXZv42WPZ1caw42x3_aFSvpq0Bs/embed?nosource"></iframe>
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/aKawsH46qqj9sli3chrYPEa8vq8LzIfnROPxYpU7VNH/embed?nosource"></iframe>
+        </section>
+    </div>
+
+    <h2>
+        Click on The Games To Explore
+    </h2>
+    <h5>
+        These games were built in the Spritelab on <a href="https://www.code.org" target="_blank">code.org</a>.
+    </h5>
+    <div id="myCarousel" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="item active">
+                <center><a href="https://studio.code.org/projects/spritelab/BdtKGTxWSu2SLQ1o4mdreXGdY3SaXZ18oFX0cdSnvZU" target="_blank">
+                        <img src="Balloon%20Popper.png" width="300" height="300">
+                    </a>
+                    <div class="carousel-content">
+                        <p>Balloon Popper</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center> <a href="https://studio.code.org/projects/playlab/fSDCs4519u5ZKEpkLl-Ly05DEGhxpGinTtOIBOwW090" target="_blank">
+                        <img src="Multiplication%20Tables.png" width="300" height="300">
+                    </a>
+                    <div class="carousel-content">
+                        <p>Multiplication Tables</p>
+                    </div>
+                </center>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+
+    <h2>
+        Click on The Apps To Explore
+    </h2>
+    <h5>
+        These apps were built on <a href="https://x.thunkable.com/" target="_blank">thunkable</a>.
+    </h5>
+    <div id="myCarousel2" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="item active">
+                <center><a href="https://x.thunkable.com/copy/9154189d51f7d0267f458ade1272d4b2" target="_blank">
+                        <img src="Chatter%20Dash.png">
+                    </a>
+                    <div class="carousel-content">
+                        <p>CHATTER DASH</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center> <a href="https://x.thunkable.com/copy/4e3ad64a615694c9c51e42e26343c1e1" target="_blank">
+                        <img src="Tic-Tac-Toe.png">
+                    </a>
+                    <div class="carousel-content">
+                        <p>Tic-Tac-Toe</p>
+                    </div>
+                </center>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel2" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
     <section id="chatbot">
         <h1>Chatbot</h1>
         <div class="line"></div>
